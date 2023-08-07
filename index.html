@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>jQuery </title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+  <div id="header">
+    <div id="logo">
+      CodePlayer
+    </div>
+    <div id="buttonContainer">
+      <div class="toggleButton active " id="html">HTML</div>
+      <div class="toggleButton " id="css">CSS</div>
+      <div class="toggleButton active " id="output">Output</div>
+    </div>
+  </div>
+  <div id="bodyContainer">
+    <textarea id="htmlpanel" class="panel">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+     
+    </textarea>
+    <textarea id="csspanel" class="panel hidden">p {color:green;}</textarea>
+    <iframe id="output" class="panel"></iframe>
+
+
+  </div>
+
+  <script type="text/javascript " src="script.js"></script>
+
+</body>
+
+</html>
